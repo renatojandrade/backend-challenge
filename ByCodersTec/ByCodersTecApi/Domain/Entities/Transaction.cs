@@ -14,6 +14,4 @@ public class Transaction
 
     public int StoreId { get; set; }
     public Store? Store { get; set; }
-
-    //public decimal EffectiveValue => Value * Type.GetTransactionSign();
 }
